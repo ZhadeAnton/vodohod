@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ВодоходЪ" />
+    <meta name="keywords" content="" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>ВодоходЪ. Пассажирский Порт</title>
+  </head>
+
+  <body>
+    <main class="about-page">
+      <div class="about-page__header">
+        <header class="header">
+          <div class="header__container">
+            <div class="header__logo">
+              <div class="project-logo">
+                <a href="/index.html">
+                  <span class="project-logo__icon --svg__logo" />
+                </a>
+              </div>
+            </div>
+
+            <div class="header__navigation">
+              <ul class="main-navigation" id="main-nav-list">
+                <li>
+                  <a href="/about.html" class="main-navigation__item">О компании</a>
+                </li>
+                <li>
+                  <a href="/info.html" class="main-navigation__item"
+                    >Пассажирам круизных теплоходов</a
+                  >
+                </li>
+                <li>
+                  <a href="https://na-meteore.ru/" class="main-navigation__item"
+                    >Метеоры</a
+                  >
+                </li>
+                <li>
+                  <a href="/shipOwners.html" class="main-navigation__item"
+                    >Судовладельцам</a
+                  >
+                </li>
+                <li>
+                  <a href="/contacts.html" class="main-navigation__item">Контакты</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="header__info">
+              <div class="small-contacts-info">
+                <div class="small-contacts-info__block">
+                  <span class="small-contacts-info__icon --svg__phone"></span>
+                  <a href="tel:+ 7812 335-52-50" class="small-contacts-info__phone-number"
+                    >+7 812 335-52-50</a
+                  >
+                </div>
+
+                <div class="small-contacts-info__block">
+                  <span class="small-contacts-info__icon --svg__mail"></span>
+                  <a href="mailto: ref@riverport.spb.ru" class="small-contacts-info__mail"
+                    >ref@riverport.spb.ru</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="header__hamburger" onclick="toggleCurtainMenu()">
+              <div class="" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </div>
+
+            <div id="curtain-menu" class="overlay">
+              <div class="overlay__content">
+                <nav class="overlay__navigation">
+                  <a href="/about.html" class="overlay__link">О компании</a>
+                  <a href="/info.html" class="overlay__link"
+                    >Пассажирам круизных <br />
+                    теплоходов</a
+                  >
+                  <a href="https://na-meteore.ru/" class="overlay__link">Метеоры</a>
+                  <a href="/shipOwners.html" class="overlay__link">Судовладельцам</a>
+                  <a href="/contacts.html" class="overlay__link">Контакты</a>
+                </nav>
+
+                <div class="overlay__info">
+                  <div class="overlay__info-block">
+                    <span class="overlay__icon --svg__phone"></span>
+                    <a
+                      href="tel:+ 7812 335-52-50"
+                      class="overlay__info-title overlay__info-title--red"
+                      >+7 812 335-52-50</a
+                    >
+                  </div>
+
+                  <div class="overlay__info-block">
+                    <span class="overlay__icon --svg__mail"></span>
+                    <a href="mailto: ref@riverport.spb.ru" class="overlay__info-title"
+                      >ref@riverport.spb.ru</a
+                    >
+                  </div>
+
+                  <div class="overlay__info-block overlay__info-block--location">
+                    <span class="overlay__icon --svg__location"></span>
+                    <p class="overlay__info-title">
+                      г. Санкт-Петербург, <br />
+                      Октябрьская наб., 31
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="about-page__hero-left"></div>
+      <div class="about-page__hero">
+        <section class="about-hero">
+          <div class="about-hero__content">
+            <h1 class="about-hero__content--title hero-title">
+              О компании <span class="no-wrap">АО «ВодоходЪ.</span> Пассажирский Порт»
+            </h1>
+
+            <h1
+              class="about-hero__content--title about-hero__content--title-medium hero-title"
+            >
+              О компании <span class="no-wrap">АО «ВодоходЪ.</span>
+              <span style="white-space: pre">Пассажирский Порт</span>»
+            </h1>
+
+            <p class="about-hero__content--sub-title">
+              7 февраля 2022 года Пассажирский Порт отметил свое
+              <span class="no-wrap">85-летие</span>.
+            </p>
+
+            <div class="about-hero__content--image"></div>
+
+            <div class="about-hero__content--block">
+              <p class="about-hero__content--text">
+                На основании приказа народного комиссара водного транспорта N 66 от 7
+                февраля 1937 года было организовано Ленинградское пригородное пассажирское
+                пароходство (ЛППП), которое осуществляло пассажирские перевозки по Неве от
+                Ленинграда до Шлиссельбурга, а также в Финском заливе, включая Кронштадт.
+              </p>
+              <br />
+              <p class="about-hero__content--text">
+                За всю историю порта в состав его флота входили различные типы судов: от
+                колесных пароходов до современных судов на воздушной подушке, на подводных
+                крыльях и комфортабельных четырехпалубных круизных теплоходов.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-hero__image"></div>
+        </section>
+      </div>
+      <div class="about-page__hero-right"></div>
+
+      <div class="about-page__history">
+        <section class="about-history">
+          <div class="about-history__image-1"></div>
+
+          <div class="about-history__text-wrapper">
+            <p class="about-history__text-wrapper--text">
+              С 12 сентября 1941 года по 22 ноября 1943 года суда Ленинградского
+              пригородного пассажирского пароходства («Александр Невский», «Кремль» и др.)
+              совместно с судами Северо-Западного речного пароходства и кораблями
+              Ленинградской военной флотилии
+              <strong>принимали участие в перевозках по легендарной «Дороге жизни»</strong
+              >, выполняя задания Государственного комитета обороны и Военного совета
+              Ленинградского фронта.
+            </p>
+          </div>
+
+          <div class="about-history__image-2"></div>
+          <div class="about-history__image-3"></div>
+
+          <p class="about-history__description">
+            Исторические <br />
+            фотографии <br />
+            предоставлены порталом <br />
+            Фотографии Второй <br />
+            мировой и Великой <br />
+            Отечественной войны <br />
+            waralbum.ru
+          </p>
+        </section>
+      </div>
+
+      <div class="about-page__time-board-title">
+        <h2 class="section-title">История пассажирского порта</h2>
+      </div>
+
+      <div class="about-page__time-board">
+        <section class="time-board">
+          <div class="time-board__item">
+            <div class="time-board__input"></div>
+            <div class="time-board__content">
+              <p class="time-board__content--year">1937 г.</p>
+              <p class="time-board__content--text">
+                Ленинградское пригородное пассажирское пароходство
+              </p>
+            </div>
+          </div>
+
+          <div class="time-board__item">
+            <div class="time-board__input"></div>
+            <div class="time-board__content">
+              <p class="time-board__content--year">1945 г.</p>
+              <p class="time-board__content--text">Ленинградская пассажирская пристань</p>
+            </div>
+          </div>
+
+          <div class="time-board__item">
+            <div class="time-board__input"></div>
+            <div class="time-board__content">
+              <p class="time-board__content--year">1960 г.</p>
+              <p class="time-board__content--text">
+                Ленинградское пассажирское агентство
+              </p>
+            </div>
+          </div>
+
+          <div class="time-board__item">
+            <div class="time-board__input"></div>
+            <div class="time-board__content">
+              <p class="time-board__content--year">1973 г.</p>
+              <p class="time-board__content--text">Ленинградский пассажирский порт</p>
+            </div>
+          </div>
+
+          <div class="time-board__item">
+            <div class="time-board__input"></div>
+            <div class="time-board__content">
+              <p class="time-board__content--year">1999 г.</p>
+              <p class="time-board__content--text">АО «Пассажирский порт»</p>
+            </div>
+          </div>
+
+          <div class="time-board__item">
+            <div class="time-board__input">
+              <span class="time-board__input--active"></span>
+            </div>
+            <div class="time-board__content">
+              <p class="time-board__content--year">2022 г.</p>
+              <p class="time-board__content--text">АО «ВодоходЪ. Пассажирский Порт»</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="about-page__project-slider">
+        <div class="projects-title-wrapper">
+          <p class="projects-title">Наши проекты</p>
+        </div>
+
+        <div class="projects">
+          <div class="container">
+            <div class="projects-wrapper">
+              <div
+                class="swiper swiper-projects swiper-initialized swiper-horizontal swiper-pointer-events"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-1.png" alt="project" /></div>
+                    <a
+                      href="https://vodohod.com/"
+                      target="_blank"
+                      class="direction__item-title"
+                    >
+                      ВодоходЪ - Круизы и Путешествия
+                    </a>
+                    <p class="direction__item-text">
+                      «ВодоходЪ» организует круизы из Москвы, Санкт-Петербурга, Самары,
+                      Нижнего Новгорода и Казани по главным рекам европейской части России
+                      и популярным туристическим маршрутам.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-3.png" alt="project" /></div>
+                    <a
+                      href="https://volga-vodohod.ru/"
+                      target="_blank"
+                      class="direction__item-title"
+                    >
+                      Прогулочный флот - Нижний Новгород
+                    </a>
+                    <p class="direction__item-text">
+                      Увлекательные речные прогулки в Нижнем Новгороде по Волге и Оке.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-2.png" alt="project" /></div>
+                    <a
+                      href="https://vodohod-express.ru/"
+                      target="_blank"
+                      class="direction__item-title"
+                      >Скоростной флот — Юг</a
+                    >
+                    <p class="direction__item-text">
+                      Знакомим гостей городов и горожан с красотами южной природы!
+                      «Грифон» и «Комета» курсируют между Новороссийском, Геленджиком,
+                      Сочи, а также открывают новое направление этого года
+                      <span class="no-wrap">Сочи — Сухум</span>.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-6.png" alt="project" /></div>
+                    <a
+                      href="https://na-meteore.ru/"
+                      target="_blank"
+                      class="direction__item-title"
+                    >
+                      Скоростной флот — Санкт-Петербург
+                    </a>
+                    <p class="direction__item-text">
+                      Скоростные теплоходы на подводных крыльях. От Дворцовой набережной
+                      до ГМЗ «Петергоф» за <span class="no-wrap">35 минут</span>.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-5.png" alt="project" /></div>
+                    <a
+                      href="https://ecocruiser-enisei.ru/"
+                      target="_blank"
+                      class="direction__item-title"
+                    >
+                      Речные прогулки по Енисею на Ecocruiser
+                    </a>
+                    <p class="direction__item-text">
+                      Пассажирский электрокатамаран нового поколения под любое ваше
+                      мероприятие.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-page__footer">
+        <footer class="footer">
+          <div class="footer__container">
+            <div class="footer__logo">
+              <div class="project-logo">
+                <a href="/index.html">
+                  <span class="project-logo__icon --svg__logo" />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer__navigation">
+              <ul class="main-navigation" id="main-nav-list">
+                <li>
+                  <a href="/about.html" class="main-navigation__item">О компании</a>
+                </li>
+                <li>
+                  <a href="/info.html" class="main-navigation__item"
+                    >Пассажирам круизных теплоходов</a
+                  >
+                </li>
+                <li>
+                  <a href="/shipOwners.html" class="main-navigation__item"
+                    >Судовладельцам</a
+                  >
+                </li>
+                <li>
+                  <a href="/contacts.html" class="main-navigation__item">Контакты</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__info">
+              <div class="small-contacts-info">
+                <div class="small-contacts-info__block">
+                  <span class="small-contacts-info__icon --svg__phone"></span>
+                  <a href="tel:+ 7812 335-52-50" class="small-contacts-info__phone-number"
+                    >+7 812 335-52-50</a
+                  >
+                </div>
+
+                <div class="small-contacts-info__block">
+                  <span class="small-contacts-info__icon --svg__mail"></span>
+                  <a href="mailto: ref@riverport.spb.ru" class="small-contacts-info__mail"
+                    >ref@riverport.spb.ru</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__copyright">
+              <p class="copyright">
+                Copyright @2023. Права на размещенную информацию принадлежат <br />
+                АО &#171;ВодоходЪ. Пассажирский Порт&#187;.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/sliders.js"></script>
+
+    <script>
+      const curtainMenu = document.getElementById("curtain-menu");
+
+      function toggleCurtainMenu() {
+        if (curtainMenu.classList.contains("curtain-menu--open")) {
+          curtainMenu.classList.remove("curtain-menu--open");
+        } else {
+          curtainMenu.classList.add("curtain-menu--open");
+        }
+      }
+    </script>
+
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ВодоходЪ" />
+    <meta name="keywords" content="" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>ВодоходЪ. Пассажирский Порт</title>
+  </head>
+
+  <body>
+    <main class="contacts-page">
+      <div class="contacts-page__header">
+        <header class="header">
+          <div class="header__container">
+            <div class="header__logo">
+              <div class="project-logo">
+                <a href="/index.html">
+                  <span class="project-logo__icon --svg__logo" />
+                </a>
+              </div>
+            </div>
+
+            <div class="header__navigation">
+              <ul class="main-navigation" id="main-nav-list">
+                <li>
+                  <a href="/about.html" class="main-navigation__item">О компании</a>
+                </li>
+                <li>
+                  <a href="/info.html" class="main-navigation__item"
+                    >Пассажирам круизных теплоходов</a
+                  >
+                </li>
+                <li>
+                  <a href="https://na-meteore.ru/" class="main-navigation__item"
+                    >Метеоры</a
+                  >
+                </li>
+                <li>
+                  <a href="/shipOwners.html" class="main-navigation__item"
+                    >Судовладельцам</a
+                  >
+                </li>
+                <li>
+                  <a href="/contacts.html" class="main-navigation__item">Контакты</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="header__info">
+              <div class="small-contacts-info">
+                <div class="small-contacts-info__block">
+                  <span class="small-contacts-info__icon --svg__phone"></span>
+                  <a href="tel:+ 7812 335-52-50" class="small-contacts-info__phone-number"
+                    >+7 812 335-52-50</a
+                  >
+                </div>
+
+                <div class="small-contacts-info__block">
+                  <span class="small-contacts-info__icon --svg__mail"></span>
+                  <a href="mailto: ref@riverport.spb.ru" class="small-contacts-info__mail"
+                    >ref@riverport.spb.ru</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="header__hamburger" onclick="toggleCurtainMenu()">
+              <div class="" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </div>
+
+            <div id="curtain-menu" class="overlay">
+              <div class="overlay__content">
+                <nav class="overlay__navigation">
+                  <a href="/about.html" class="overlay__link">О компании</a>
+                  <a href="/info.html" class="overlay__link"
+                    >Пассажирам круизных <br />
+                    теплоходов</a
+                  >
+                  <a href="https://na-meteore.ru/" class="overlay__link">Метеоры</a>
+                  <a href="/shipOwners.html" class="overlay__link">Судовладельцам</a>
+                  <a href="/contacts.html" class="overlay__link">Контакты</a>
+                </nav>
+
+                <div class="overlay__info">
+                  <div class="overlay__info-block">
+                    <span class="overlay__icon --svg__phone"></span>
+                    <a
+                      href="tel:+ 7812 335-52-50"
+                      class="overlay__info-title overlay__info-title--red"
+                      >+7 812 335-52-50</a
+                    >
+                  </div>
+
+                  <div class="overlay__info-block">
+                    <span class="overlay__icon --svg__mail"></span>
+                    <a href="mailto: ref@riverport.spb.ru" class="overlay__info-title"
+                      >ref@riverport.spb.ru</a
+                    >
+                  </div>
+
+                  <div class="overlay__info-block overlay__info-block--location">
+                    <span class="overlay__icon --svg__location"></span>
+                    <p class="overlay__info-title">
+                      г. Санкт-Петербург, <br />
+                      Октябрьская наб., 31
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <div class="contacts-page__hero-left"></div>
+      <div class="contacts-page__hero">
+        <section class="contacts-hero">
+          <h1 class="contacts-hero__title hero-title">Контакты</h1>
+
+          <div class="contacts-hero__wrapper">
+            <div class="contacts-hero__image"></div>
+
+            <div class="contacts-hero__content">
+              <p class="contacts-hero__content--title section-title">
+                АО «ВодоходЪ. <span class="no-wrap">Пассажирский Порт»</span>
+              </p>
+
+              <div class="contacts-hero__info-wrapper">
+                <div class="contacts-hero__info">
+                  <div class="contacts-hero__info--block">
+                    <p class="contacts-hero__info--title">Почтовый адрес:</p>
+                    <p class="contacts-hero__info--text">
+                      193149, Ленинградская обл., Всеволожский район, дер. Новосаратовка,
+                      <span class="no-wrap">Октябрьская наб., 31</span>
+                    </p>
+                  </div>
+
+                  <div class="contacts-hero__info--block">
+                    <p class="contacts-hero__info--title">Юридический адрес:</p>
+                    <p class="contacts-hero__info--text">
+                      188644, Ленинградская обл., Всеволожский район, дер. Новосаратовка,
+                      <span class="no-wrap">Октябрьская наб., 31</span>
+                    </p>
+                  </div>
+
+                  <div class="contacts-hero__info--block contacts-hero__info--block-flex">
+                    <p class="contacts-hero__info--title">Телефон:</p>
+                    <a href="tel:+ 7812 335-52-50" class="contacts-hero__info--text"
+                      >+7 812 335-52-50</a
+                    >
+                  </div>
+
+                  <div class="contacts-hero__info--block contacts-hero__info--block-flex">
+                    <p class="contacts-hero__info--title">E-mail:</p>
+                    <a
+                      href="mailto: ref@riverport.spb.ru"
+                      class="contacts-hero__info--text"
+                      >ref@riverport.spb.ru</a
+                    >
+                  </div>
+                </div>
+
+                <div class="contacts-hero__info">
+                  <div class="contacts-hero__info--block">
+                    <p class="contacts-hero__info--title">Реквизиты</p>
+                    <p class="contacts-hero__info--text">
+                      Р/с 40702810255000100540 <br />
+                      Северо-Западный Банк ПАО Сбербанк <br />
+                      Кор. счет 30101810500000000653 <br />
+                      ИНН 7811083297 <br />
+                      КПП 470301001 <br />
+                      БИК 044030795 <br />
+                      ОКПО 52191825 <br />
+                      ОКВЭД 50.30
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="contacts-hero__docsContainer">
+          <ul class="contacts-hero__list">
+            <li class="rules-file contacts-hero__file">
+              <div class="rules-file__content">
+                <img
+                  src="/img/form-check.png"
+                  alt="form-check"
+                  class="rules-file__content--image contacts-hero__file-image"
+                />
+                <a
+                  href="./docs/ЛИЦЕНЗИЯ.pdf"
+                  target="_blank"
+                  class="rules-file__content--link contacts-hero__file-link"
+                  >Скачать &#62;</a
+                >
+              </div>
+              <p class="rules-file__text contacts-hero__file-text">ЛИЦЕНЗИЯ.pdf</p>
+            </li>
+
+            <li class="rules-file contacts-hero__file">
+              <div class="rules-file__content">
+                <img
+                  src="/img/form-check.png"
+                  alt="form-check"
+                  class="rules-file__content--image contacts-hero__file-image"
+                />
+                <a
+                  href="./docs/Уведомление о переоформлении ВодоходЪ Пассажирский порт.pdf"
+                  target="_blank"
+                  class="rules-file__content--link contacts-hero__file-link"
+                  >Скачать &#62;</a
+                >
+              </div>
+              <p class="rules-file__text contacts-hero__file-text">
+                Уведомление о переоформлении ВодоходЪ.pdf
+              </p>
+            </li>
+
+            <li class="rules-file contacts-hero__file">
+              <div class="rules-file__content">
+                <img
+                  src="/img/form-check.png"
+                  alt="form-check"
+                  class="rules-file__content--image contacts-hero__file-image"
+                />
+                <a
+                  href="./docs/СОУТ 2022.pdf"
+                  target="_blank"
+                  class="rules-file__content--link contacts-hero__file-link"
+                  >Скачать &#62;</a
+                >
+              </div>
+              <p class="rules-file__tex contacts-hero__file-text">СОУТ.pdf</p>
+            </li>
+          </ul>
+
+          <div id="widget1"></div>
+        </div>
+      </div>
+
+      <div class="contacts-page__hero-right"></div>
+
+      <div class="contacts-page__location-left"></div>
+      <div class="contacts-page__location">
+        <section class="contacts-location">
+          <h2 class="contacts-location__title section-title">Как добраться</h2>
+
+          <div class="contacts-location__wrapper">
+            <div class="contacts-location__left">
+              <div class="contacts-location__item contacts-location__item--large">
+                <div class="contacts-location__item--header">
+                  <img
+                    src="/img/car-icon.png"
+                    alt=""
+                    class="contacts-location__item--icon"
+                  />
+                  <p class="contacts-location__item--title">На автомобиле</p>
+                </div>
+
+                <p class="contacts-location__item--text">
+                  Возможность оставить автомобиль на платной парковке в порту есть только
+                  у туристов, отправляющихся в круиз. До въезда на территорию порта есть
+                  небольшая бесплатная парковка.
+                </p>
+                <p class="contacts-location__item--text">
+                  <strong class="contacts-location__item--text"
+                    >Стоимость парковки легкового автомобиля —
+                    <span class="no-wrap">450 ₽/сутки</span></strong
+                  >
+                </p>
+              </div>
+
+              <div class="contacts-location__item contacts-location__item--large">
+                <div class="contacts-location__item--header">
+                  <img
+                    src="/img/bus-icon-2.png"
+                    alt=""
+                    class="contacts-location__item--icon"
+                  />
+                  <p class="contacts-location__item--title">На общественном транспорте</p>
+                </div>
+
+                <p class="contacts-location__item--text">
+                  Вы можете воспользоваться городским наземным транспортом, идущим в район
+                  <span class="no-wrap">«Уткина заводь»</span>.
+                </p>
+              </div>
+            </div>
+
+            <div class="contacts-location__right">
+              <div class="contacts-location__item--header">
+                <img
+                  src="/img/bus-icon-1.png"
+                  alt=""
+                  class="contacts-location__item--icon"
+                />
+                <p class="contacts-location__item--title">Автобус «ВодоходЪ»</p>
+              </div>
+
+              <div class="contacts-location__right--list">
+                <div class="contacts-location__item contacts-location__item--small">
+                  <p class="contacts-location__item--text">
+                    Для туристов организован бесплатный автобус-экспресс
+                    <span class="no-wrap">(с табличкой «ВодоходЪ»)</span>
+                    по маршруту: станция метро «Пролетарская» — причал
+                    <span class="no-wrap">«Уткина заводь»</span>.
+                  </p>
+                  <p class="contacts-location__item--text">
+                    Просим вас обратить внимание, что посадка в автобус будет
+                    осуществляться только на основании предъявления водителю карточки
+                    гостя или посадочного талона на круиз.
+                  </p>
+                </div>
+
+                <div class="contacts-location__item contacts-location__item--small">
+                  <p class="contacts-location__item--text">
+                    Ввиду запрета стоянки в районе метро «Пролетарская» автобус «ВодоходЪ»
+                    будет останавливаться только для посадки-высадки пассажиров,
+                    длительность которой не более 2 минут.
+                  </p>
+                  <p class="contacts-location__item--text">
+                    Дополнительную информацию вы можете получить по телефону:
+                  </p>
+                  <p class="contacts-location__item--text" style="margin-top: 10px">
+                    <span class="contacts-location__item--icon-phone --svg__phone"></span>
+                    <strong class="contacts-location__item--text"
+                      ><a href="tel:+ 7812 335-52-50">+7 812 335-52-50</a></strong
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div></div>
+        </section>
+      </div>
+      <div class="contacts-page__location-right"></div>
+
+      <div class="contacts-page__map">
+        <div id="about-map" class="contacts-map"></div>
+      </div>
+
+      <div class="contacts-page__location-info">
+        <section class="contacts-location-info">
+          <div class="contacts-location-info__content-wrapper">
+            <div class="contacts-location-info__item">
+              <div
+                id="contacts-location-info-item-1"
+                class="contacts-location-info__item--map"
+              ></div>
+
+              <div class="contacts-location-info__item--content-wrapper">
+                <p class="contacts-location-info__item--title">
+                  Из Санкт-Петербурга&nbsp;
+                  <span
+                    class="contacts-location-info__item--arrow-icon --svg__link-arrow"
+                  ></span
+                  >&nbsp;<span class="no-wrap">в ГМЗ «Петергоф»</span>
+                </p>
+                <p class="contacts-location-info__item--text">
+                  Причал «Эрмитаж Нижний», СПб,
+                  <span class="no-wrap">Дворцовая набережная, 38</span>
+                </p>
+                <div class="contacts-location-info__item--link-wrapper">
+                  <span
+                    class="contacts-location-info__item--icon --svg__location-red"
+                  ></span>
+                  <a
+                    target="_blank"
+                    href="https://yandex.ru/maps/?ll=30.312476736212805,59.94133212557686&z=15"
+                    class="contacts-location-info__item--link"
+                    >Показать на карте</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="contacts-location-info__item">
+              <div
+                id="contacts-location-info-item-2"
+                class="contacts-location-info__item--map"
+              ></div>
+
+              <div class="contacts-location-info__item--content-wrapper">
+                <p class="contacts-location-info__item--title">
+                  Из ГМЗ «Петергоф»&nbsp;
+                  <span
+                    class="contacts-location-info__item--arrow-icon --svg__link-arrow"
+                  ></span
+                  >&nbsp; <span class="no-wrap">в Санкт-Петербург</span>
+                </p>
+                <p class="contacts-location-info__item--text">
+                  Причал №3 и №6 в Нижнем Парке ГМЗ «Петергоф»
+                </p>
+                <div class="contacts-location-info__item--link-wrapper">
+                  <span
+                    class="contacts-location-info__item--icon --svg__location-red"
+                  ></span>
+                  <a
+                    target="_blank"
+                    href="https://yandex.ru/maps/?ll=29.913349194815062,59.89182067381413&z=15"
+                    class="contacts-location-info__item--link"
+                    >Показать на карте</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contacts-location-info__image-wrapper">
+            <img
+              src="/img/teplohod.png"
+              alt="image"
+              class="contacts-location-info__image--large"
+            />
+            <img
+              src="/img/teplohod-long-2.png"
+              alt="image"
+              class="contacts-location-info__image--medium"
+            />
+            <img
+              src="/img/teplohod-long.png"
+              alt="image"
+              class="contacts-location-info__image--small"
+            />
+
+            <div class="contacts-location-info__image-content">
+              <p
+                class="contacts-location-info__image-content--title contacts-location-info__image-content--title-large"
+              >
+                Причалы отправления <br />
+                Метеоров
+              </p>
+
+              <p
+                class="contacts-location-info__image-content--title contacts-location-info__image-content--title-medium"
+              >
+                Причалы отправления Метеоров
+              </p>
+
+              <a
+                href="https://na-meteore.ru/"
+                class="contacts-location-info__image-content--link"
+                >Актуальное в сезон навигации &#8594;
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="contacts-page__project-slider">
+        <div class="projects-title-wrapper">
+          <p class="projects-title">Наши проекты</p>
+        </div>
+
+        <div class="projects">
+          <div class="container">
+            <div class="projects-wrapper">
+              <div
+                class="swiper swiper-projects swiper-initialized swiper-horizontal swiper-pointer-events"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-1.png" alt="project" /></div>
+                    <a
+                      href="https://vodohod.com/"
+                      target="_blank"
+                      class="direction__item-title"
+                    >
+                      ВодоходЪ - Круизы и Путешествия
+                    </a>
+                    <p class="direction__item-text">
+                      «ВодоходЪ» организует круизы из Москвы, Санкт-Петербурга, Самары,
+                      Нижнего Новгорода и Казани по главным рекам европейской части России
+                      и популярным туристическим маршрутам.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-3.png" alt="project" /></div>
+                    <a
+                      href="https://volga-vodohod.ru/"
+                      target="_blank"
+                      class="direction__item-title"
+                    >
+                      Прогулочный флот - Нижний Новгород
+                    </a>
+                    <p class="direction__item-text">
+                      Увлекательные речные прогулки в Нижнем Новгороде по Волге и Оке.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-2.png" alt="project" /></div>
+                    <a
+                      href="https://vodohod-express.ru/"
+                      target="_blank"
+                      class="direction__item-title"
+                      >Скоростной флот — Юг</a
+                    >
+                    <p class="direction__item-text">
+                      Знакомим гостей городов и горожан с красотами южной природы!
+                      «Грифон» и «Комета» курсируют между Новороссийском, Геленджиком,
+                      Сочи, а также открывают новое направление этого года
+                      <span class="no-wrap">Сочи — Сухум</span>.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-6.png" alt="project" /></div>
+                    <a
+                      href="https://na-meteore.ru/"
+                      target="_blank"
+                      class="direction__item-title"
+                    >
+                      Скоростной флот — Санкт-Петербург
+                    </a>
+                    <p class="direction__item-text">
+                      Скоростные теплоходы на подводных крыльях. От Дворцовой набережной
+                      до ГМЗ «Петергоф» за <span class="no-wrap">35 минут</span>.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div><img src="../../img/project-5.png" alt="project" /></div>
+                    <a
+                      href="https://ecocruiser-enisei.ru/"
+                      target="_blank"
+                      class="direction__item-title"
+                    >
+                      Речные прогулки по Енисею на Ecocruiser
+                    </a>
+                    <p class="direction__item-text">
+                      Пассажирский электрокатамаран нового поколения под любое ваше
+                      мероприятие.
+                    </p>
+                    <div class="swiper-button-prev1 gallery-button-prev">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="60"
+                          y="60"
+                          width="60"
+                          height="60"
+                          transform="rotate(-180 60 60)"
+                          fill="#007A88"
+                        ></rect>
+                        <path
+                          d="M23.3333 29.9998L33.3333 24.2263L33.3333 35.7733L23.3333 29.9998Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-next1 gallery-button-next">
+                      <svg
+                        width="60"
+                        height="60"
+                        viewBox="0 0 60 60"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect width="60" height="60" fill="#007A88"></rect>
+                        <path
+                          d="M36.6665 30.0002L26.6665 35.7737L26.6665 24.2267L36.6665 30.0002Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contacts-page__footer">
+        <footer class="footer">
+          <div class="footer__container">
+            <div class="footer__logo">
+              <div class="project-logo">
+                <a href="/index.html">
+                  <span class="project-logo__icon --svg__logo" />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer__navigation">
+              <ul class="main-navigation" id="main-nav-list">
+                <li>
+                  <a href="/about.html" class="main-navigation__item">О компании</a>
+                </li>
+                <li>
+                  <a href="/info.html" class="main-navigation__item"
+                    >Пассажирам круизных теплоходов</a
+                  >
+                </li>
+                <li>
+                  <a href="/shipOwners.html" class="main-navigation__item"
+                    >Судовладельцам</a
+                  >
+                </li>
+                <li>
+                  <a href="/contacts.html" class="main-navigation__item">Контакты</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__info">
+              <div class="small-contacts-info">
+                <div class="small-contacts-info__block">
+                  <span class="small-contacts-info__icon --svg__phone"></span>
+                  <a href="tel:+ 7812 335-52-50" class="small-contacts-info__phone-number"
+                    >+7 812 335-52-50</a
+                  >
+                </div>
+
+                <div class="small-contacts-info__block">
+                  <span class="small-contacts-info__icon --svg__mail"></span>
+                  <a href="mailto: ref@riverport.spb.ru" class="small-contacts-info__mail"
+                    >ref@riverport.spb.ru</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__copyright">
+              <p class="copyright">
+                Copyright @2023. Права на размещенную информацию принадлежат <br />
+                АО &#171;ВодоходЪ. Пассажирский Порт&#187;.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=df858e32-b184-4d05-a7ab-e305511ef259&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/sliders.js"></script>
+
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
+
+    <script>
+      const curtainMenu = document.getElementById("curtain-menu");
+
+      function toggleCurtainMenu() {
+        if (curtainMenu.classList.contains("curtain-menu--open")) {
+          curtainMenu.classList.remove("curtain-menu--open");
+        } else {
+          curtainMenu.classList.add("curtain-menu--open");
+        }
+      }
+    </script>
+
+    <script>
+      (function (d, s) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        js = d.createElement(s);
+        js.src = "https://widgets.mos.ru/cnews/citywidgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        var i = setInterval(function () {
+          if (window.city_widget && document.readyState === "complete") {
+            city_widget("200x200", "#widget1");
+            clearInterval(i);
+          }
+        }, 50);
+        setTimeout(function () {
+          clearInterval(i);
+        }, 5000);
+      })(document, "script");
+    </script>
+
+    <script type="text/javascript">
+      ymaps.ready(init);
+      function init() {
+        var myMap = new ymaps.Map("contacts-location-info-item-1", {
+            center: [59.94133212557686, 30.312476736212805],
+            zoom: 15,
+          }),
+          myPlacemark = new ymaps.Placemark(
+            myMap.getCenter(),
+            {},
+            {
+              iconLayout: "default#image",
+              iconImageHref: "/img/map-pointer.png",
+              iconImageSize: [35, 52],
+            }
+          );
+        myMap.controls.remove(["searchControl", "gotoymaps", "gototech"]);
+        myMap.geoObjects.add(myPlacemark);
+        myMap.behaviors.disable(["scrollZoom", "drag"]);
+        myMap.behaviors.enable("multiTouch");
+        myMap.panes.get("ground").getElement().style.filter = "grayscale(100%)";
+      }
+    </script>
+
+    <script type="text/javascript">
+      ymaps.ready(init);
+      function init() {
+        var myMap = new ymaps.Map("contacts-location-info-item-2", {
+            center: [59.89182067381413, 29.913349194815062],
+            zoom: 15,
+          }),
+          myPlacemark = new ymaps.Placemark(
+            myMap.getCenter(),
+            {},
+            {
+              iconLayout: "default#image",
+              iconImageHref: "/img/map-pointer.png",
+              iconImageSize: [35, 52],
+            }
+          );
+        myMap.controls.remove("searchControl");
+        myMap.geoObjects.add(myPlacemark);
+        myMap.behaviors.disable(["scrollZoom", "drag"]);
+        myMap.behaviors.enable("multiTouch");
+        myMap.panes.get("ground").getElement().style.filter = "grayscale(100%)";
+      }
+    </script>
+
+    <script type="text/javascript">
+      ymaps.ready(init);
+      function init() {
+        var myMap = new ymaps.Map("about-map", {
+            center: [59.85553387691475, 30.4993263869965],
+            zoom: 15,
+          }),
+          myPlacemark = new ymaps.Placemark(
+            myMap.getCenter(),
+            {},
+            {
+              iconLayout: "default#image",
+              iconImageHref: "/img/map-pointer.png",
+              iconImageSize: [35, 52],
+            }
+          );
+        myMap.controls.remove("searchControl");
+        myMap.geoObjects.add(myPlacemark);
+        myMap.behaviors.disable(["scrollZoom", "drag"]);
+        myMap.behaviors.enable("multiTouch");
+        myMap.panes.get("ground").getElement().style.filter = "grayscale(100%)";
+      }
+    </script>
+  </body>
+</html>
