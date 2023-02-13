@@ -7,11 +7,7 @@
     <meta name="keywords" content="" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.min.css" />
-    <link rel="stylesheet" href="css/style2.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <title>ВодоходЪ. Пассажирский Порт</title>
   </head>
 
@@ -1024,55 +1020,8 @@
       </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="js/main.min.js"></script>
-    <script src="js/sliders.js"></script>
-    <script>
-      var swiper = new Swiper(".cruisesSPB", {
-        lazy: true,
-        loop: true,
-        slidesPerView: 3,
-        spaceBetween: 20,
-        navigation: {
-          nextEl: ".cruisesSPB__right-arrow",
-          prevEl: ".cruisesSPB__left-arrow",
-        },
-        breakpoints: {
-          1400: {
-            slidesPerView: 4,
-            loop: false,
-          },
-          992: {
-            slidesPerView: 3,
-          },
-          560: {
-            slidesPerView: 2,
-          },
-          420: {
-            slidesPerView: 1.4,
-          },
-          10: {
-            slidesPerView: 1.2,
-            spaceBetween: 15,
-          },
-        },
-      });
-    </script>
-    <script>
-      function myFunction(x) {
-        x.classList.toggle("change");
-      }
-    </script>
-    <script>
-      const curtainMenu = document.getElementById("curtain-menu");
-
-      function toggleCurtainMenu() {
-        if (curtainMenu.classList.contains("curtain-menu--open")) {
-          curtainMenu.classList.remove("curtain-menu--open");
-        } else {
-          curtainMenu.classList.add("curtain-menu--open");
-        }
-      }
-    </script>
+    <script defer src="js/swiper.min.js"></script>
+    <script defer src="js/main.min.js"></script>
+    <script defer src="js/sliders.js"></script>
   </body>
 </html>
