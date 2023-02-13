@@ -7,11 +7,7 @@
     <meta name="keywords" content="" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.min.css" />
-    <link rel="stylesheet" href="css/style2.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <title>ВодоходЪ. Пассажирский Порт</title>
   </head>
 
@@ -83,12 +79,6 @@
                   <div class="bar2"></div>
                   <div class="bar3"></div>
                 </div>
-
-                <script>
-                  function myFunction(x) {
-                    x.classList.toggle("change");
-                  }
-                </script>
               </div>
 
               <div id="curtain-menu" class="overlay">
@@ -133,18 +123,6 @@
               </div>
             </div>
           </header>
-
-          <script>
-            const curtainMenu = document.getElementById("curtain-menu");
-
-            function toggleCurtainMenu() {
-              if (curtainMenu.classList.contains("curtain-menu--open")) {
-                curtainMenu.classList.remove("curtain-menu--open");
-              } else {
-                curtainMenu.classList.add("curtain-menu--open");
-              }
-            }
-          </script>
         </div>
 
         <div class="main__content-wrapper">
@@ -827,8 +805,8 @@
       </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="js/main.min.js"></script>
-    <script src="js/sliders.js"></script>
+    <script defer src="js/swiper.min.js"></script>
+    <script defer src="js/main.min.js"></script>
+    <script defer src="js/sliders.js"></script>
   </body>
 </html>

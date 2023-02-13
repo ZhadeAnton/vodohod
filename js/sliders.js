@@ -74,3 +74,33 @@ new Swiper(".ship-owners-slider", {
     },
   },
 });
+
+new Swiper(".cruisesSPB", {
+  lazy: true,
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: ".cruisesSPB__right-arrow",
+    prevEl: ".cruisesSPB__left-arrow",
+  },
+  breakpoints: {
+    1400: {
+      slidesPerView: 4,
+      loop: false,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+    560: {
+      slidesPerView: 2,
+    },
+    420: {
+      slidesPerView: 1.4,
+    },
+    10: {
+      slidesPerView: 1.2,
+      spaceBetween: 15,
+    },
+  },
+});
