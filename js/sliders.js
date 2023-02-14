@@ -33,13 +33,13 @@ new Swiper(".swiper-projects", {
     prevEl: ".swiper-projects .gallery-button-prev",
   },
   loop: true,
-  initialSlide: 1,
   allowTouchMove: true,
   spaceBetween: 20,
   slidesPerView: 1,
   centeredSlides: true,
   breakpoints: {
     701: {
+      initialSlide: 1,
       allowTouchMove: false,
       slidesPerView: 3,
     },
